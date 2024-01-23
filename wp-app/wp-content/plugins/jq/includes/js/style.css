@@ -1,0 +1,82 @@
+#banner {
+    color: white;
+    text-align: center;
+    font: 18px bold;
+    position: relative;
+}
+
+.back{
+    position: relative;
+    z-index: 99990;
+    top: 0px;
+    left: 0px;
+    height: fit-content;
+    width: 100%;
+    background-color: #7a00df;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+}
+
+.back p {
+    margin: 0.5em;
+    padding: 0;
+}
+
+.popup {
+    position: fixed;
+    bottom: 15px;
+    right: 96px;
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem;
+    background-color: #fdfcfc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.55);
+}
+
+#support-form{
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.btn-sent{
+    float: right;
+    width: 25%;
+}
+
+#email{
+    height: 33px;
+    width: 70%;
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+.notice{
+    background: #48bb64;
+    color: white;
+}
+
+.repeat{
+    background: rgba(0, 0, 0, 0.64);
+    color: white;
+}
+
+.warn{
+    background: #f5e894;
+    color: rgba(0, 0, 0, 0.74);
+}
+
+.error{
+    background: rgba(232, 54, 54, 0.84);
+    color: white;
+}
+
+.contents{
+    margin-top: 1em;
+}
